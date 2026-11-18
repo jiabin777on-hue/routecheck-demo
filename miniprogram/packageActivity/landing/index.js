@@ -1,0 +1,1 @@
+Page({ onLoad() { wx.setNavigationBarTitle({ title: '活动' }) } })

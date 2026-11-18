@@ -1,0 +1,1 @@
+module.exports = { pick(skus, id) { return skus.find(s => s.id === id) } }

@@ -1,0 +1,1 @@
+module.exports = { base: 'https://api.example.com' }

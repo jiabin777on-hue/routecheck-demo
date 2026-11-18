@@ -1,0 +1,4 @@
+<view class="card" bindtap="open">
+  <text>{{ goods.name }}</text>
+  <price cents="{{ goods.price }}" />
+</view>

@@ -1,0 +1,5 @@
+<view class="page">
+  <text>{{ goods.name }}</text>
+  <price cents="{{ sku.price }}" />
+  <button bindtap="buy">立即购买</button>
+</view>

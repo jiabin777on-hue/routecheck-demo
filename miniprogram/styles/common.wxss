@@ -1,0 +1,2 @@
+.page { padding: 24rpx; }
+.muted { color: #888; }

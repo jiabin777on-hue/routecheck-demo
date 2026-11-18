@@ -1,0 +1,3 @@
+<template name="banner">
+  <view class="banner"><image src="/images/logo.png" mode="aspectFit" /><text>{{ title }}</text></view>
+</template>

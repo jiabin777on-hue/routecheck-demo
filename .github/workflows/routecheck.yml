@@ -1,0 +1,20 @@
+name: routecheck
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  security-events: write # upload SARIF to code scanning
+
+jobs:
+  routecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: jiabin777on-hue/miniapp-routecheck@v0.3.0
+        with:
+          path: . # project.config.json points at miniprogram/

@@ -1,0 +1,4 @@
+<view class="page">
+  <navigator url="/packageActivity/landing/index">双十一活动</navigator>
+  <navigator url="/pages/index/index" open-type="switchTab">回到首页</navigator>
+</view>

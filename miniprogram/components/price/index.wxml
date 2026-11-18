@@ -1,0 +1,2 @@
+<wxs src="../../utils/format.wxs" module="fmt" />
+<text class="price">¥{{ fmt.money(cents) }}</text>
