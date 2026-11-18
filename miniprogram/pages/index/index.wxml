@@ -1,6 +1,6 @@
 <import src="/templates/banner.wxml" />
 <view class="page">
-  <template is="banner" data="{{ title: '今日推荐' }}" />
+  <template is="bannr" data="{{ title: '今日推荐' }}" />
   <goods-card wx:for="{{ list }}" wx:key="id" goods="{{ item }}" />
   <button bindtap="more">更多</button>
 </view>

@@ -1,1 +1,3 @@
-Page({ onLoad() { wx.setNavigationBarTitle({ title: '活动' }) } })
+const { request } = require('../../utils/request')
+
+Page({ onLoad() { request('/activity') } })

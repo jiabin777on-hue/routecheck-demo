@@ -1,0 +1,1 @@
+module.exports = function drawChart(canvas, points) { /* 40 KB of chart code in real life */ }
