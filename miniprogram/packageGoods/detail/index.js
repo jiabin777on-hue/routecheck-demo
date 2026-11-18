@@ -1,5 +1,6 @@
 const { pick } = require('../utils/sku')
 const { request } = require('../../utils/request')
+const drawChart = require('../../utils/chart')
 
 Page({
   async onLoad(query) {
